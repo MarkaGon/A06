@@ -1,0 +1,56 @@
+:root {
+  --color-1: #800000;
+}
+
+body {
+  font: 100%/1 Arial, Helvetica, sans-serif;
+}
+
+header img {
+  float: left;
+}
+
+header h2,
+header h3 {
+  text-indent: 30px;
+}
+
+header h2 {
+  font-size: 1.7em;
+  color: var(--color-1);
+}
+
+header h3 {
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+.shadow {
+  text-shadow: 2px 2px 2px var(--color-1);
+}
+
+main {
+  clear: left;
+}
+
+main h1 {
+  font-size: 1.5em;
+}
+
+main h2 {
+  color: var(--color-1);
+  font-size: 1.3em;
+}
+
+main h3 {
+  font-size: 1.05em;
+}
+
+a:focus,
+a:hover {
+  font-style: italic;
+}
+
+footer p {
+  text-align: center;
+}
